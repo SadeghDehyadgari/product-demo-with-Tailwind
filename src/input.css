@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --header-light: #3f7d58;
+  --hover-light: black;
+  --text-dark: #efefef;
+  --first-orange: #ef9651;
+  --second-orange: #ec5228;
+}
+
+body {
+  font-family: Roboto;
+}
+h1,
+h2,
+h3 {
+  font-family: Ubuntu;
+}
+
+.custom-transition {
+  transition: 0.3s;
+}
+.icon-size {
+  font-size: 20px !important;
+}
+.product-size {
+  @apply py-1 px-3 border-2 rounded-md border-white text-white mr-3;
+  transition: 0.3s;
+}
+.product-size:hover {
+  @apply border-black text-black;
+}
+.mobile-footer-shadow {
+  box-shadow: 0 -5px 10px rgba(128, 128, 128, 0.4);
+}
+.iteration-1 {
+  animation-iteration-count: 1;
+}
+.display-none {
+  display: none;
+}
