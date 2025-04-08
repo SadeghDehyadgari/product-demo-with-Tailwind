@@ -29,16 +29,6 @@ You can view the live demo here:
 
 ---
 
-## 📁 Project Structure
-
-product-demo-with-Tailwind/ ├── index.html ├── css/ │ └── input.css └── README.md
-
-yaml
-Copy
-Edit
-
----
-
 ## ⚠️ Notes
 
 - This is **not** a production-ready UI.
